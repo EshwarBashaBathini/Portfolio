@@ -33,6 +33,7 @@ const Home = () => {
                 <h3 className='projects'>
                     Projects
                 </h3>
+                <p className='user-creds'>Username & Password: rahul , rahul@2021</p>
                 <ul>
                 <li className='project-item'>
                     <h2 className='project-name'>Nxt Trendz</h2>

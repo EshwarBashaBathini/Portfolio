@@ -156,3 +156,7 @@
     list-style: none;
     align-self: flex-end;text-align: end;
 }
+.user-creds{
+    color: white;
+    font-size: 13px;
+}
