@@ -20,6 +20,9 @@
     box-sizing: border-box;
     justify-content: space-between;
 }
+.link-img-header{
+    align-self: flex-start;
+}
 .ul{
     padding-left: 0px;
     display: flex;
@@ -42,4 +45,13 @@
     transition: background 0.5s ease-in-out;
     text-decoration: underline;
 
+}
+@media screen and (max-width:767px){
+    .nav-container{
+        width: 90%;
+        justify-content: space-between;
+    }
+    .ul{
+        width: 50%;
+    }
 }

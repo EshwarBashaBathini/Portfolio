@@ -1,47 +1,54 @@
-.home-profile{
+.home-profile {
     width: 150px;
     border-radius: 150px;
     border: 2px solid #7f7ffc;
 }
-.section{
+
+.section {
     margin-top: 50px;
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
 
 }
-.name{
+
+.name {
     font-size: 30px;
     font-weight: 500;
     margin: 0px;
     color: rgb(56, 56, 55);
 }
-.bg-container{
-    display:flex;
+
+.bg-container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 10px;
     background-image: linear-gradient(to right, #e9937d, #ecc9ae, #a6bde7, #9191da);
 }
-.para{
+
+.para {
     font-size: 20px;
     color: white;
     font-weight: 500;
     margin: 0px;
 
 }
-.projects{
+
+.projects {
     font-size: 20px;
     color: rgb(49, 49, 49);
 }
-.section1{
+
+.section1 {
     padding: 10px;
     box-sizing: border-box;
     width: 100%;
 
 }
-.ul-bio{
+
+.ul-bio {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,30 +57,37 @@
     margin: 0px;
     padding-left: 0px;
 }
-.list-item{
+
+.list-item {
     list-style-type: none;
     height: 40px;
     width: 40px;
-    
+
 }
-.icons{
+
+.icons {
     padding-top: 10px;
     margin: 0px;
     padding-left: 10px;
 }
-.list-item:hover{
+
+.list-item:hover {
     border: 1px solid #797575;
     border-radius: 10px;
 }
-.main-height{
+
+.main-height {
     height: 85vh;
     overflow-y: auto;
     width: 65%;
 }
-.main-height::-webkit-scrollbar{
+
+
+.main-height::-webkit-scrollbar {
     display: none;
 }
-.project-item{
+
+.project-item {
     list-style: none;
     width: 90%;
     border-radius: 10px;
@@ -84,45 +98,63 @@
     padding: 10px;
     margin-bottom: 10px;
 }
-.project-item:hover{
+
+.project-item:hover {
     box-shadow: 0px 8px 8px 0px #797878;
 }
-.skills-ul{
+
+.skills-ul {
     display: flex;
     align-items: center;
     padding: 0px;
+    width: 100%;
+    overflow-x: auto;
+    height: 50px;
 
 }
-.skill-items{
+
+.skills-ul::-webkit-scrollbar {
+    display: none;
+}
+
+.skill-items {
     list-style: none;
-    background-color:  #e7e2e2;
+    background-color: #e7e2e2;
     padding: 5px;
-    color:rgb(96, 99, 99);
-    border: 1px solid rgb(135, 143,143);
+    color: rgb(96, 99, 99);
+    border: 1px solid rgb(135, 143, 143);
     border-radius: 4px;
     margin-left: 10px;
     font-size: 12px;
+    height: 25px;
+    text-align: center;
+    width: fit-content;
 }
-.skill-items:hover{
+
+.skill-items:hover {
     box-shadow: 0px 2px 1px 0px #8a8989;
 }
-.project-name{
+
+.project-name {
     font-size: 18px;
     font-weight: bold;
     margin: 5px;
 }
-.project-p{
+
+.project-p {
     font-size: 13px;
     color: #797878;
     margin: 10px;
 }
-.bottom-btn-container{
-    display:flex;
+
+.bottom-btn-container {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 10px 10px;
 }
-.live-btn{
+
+.live-btn {
     background-color: rgb(19, 19, 44);
     outline: none;
     border: none;
@@ -133,7 +165,8 @@
     font-size: 14px;
     align-items: center;
 }
-.github-btn{
+
+.github-btn {
     background-color: rgb(239, 239, 245);
     outline: none;
     border: none;
@@ -144,19 +177,38 @@
     font-size: 14px;
     align-items: center;
 }
-.github-btn:hover{
-    
+
+.github-btn:hover {
+
     box-shadow: 0px 1px 10px 0px #888686;
 }
-.live-btn:hover{
-    
+
+.live-btn:hover {
+
     box-shadow: 0px 1px 10px 0px #727171;
 }
-.more-projects{
+
+.more-projects {
     list-style: none;
-    align-self: flex-end;text-align: end;
+    align-self: flex-end;
+    text-align: end;
 }
-.user-creds{
+
+.user-creds {
     color: white;
     font-size: 13px;
+}
+
+@media screen and (max-width:767px) {
+    .main-height {
+        width: 85%;
+    }
+
+    .ul-projects {
+        padding-left: 0px;
+    }
+
+    .project-item {
+        width: 95%;
+    }
 }
